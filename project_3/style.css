@@ -1,0 +1,147 @@
+body {
+    background-image: url("https://uschamber.imgix.net/https%3A%2F%2Fwww.uschamber.com%2Fassets%2Fimages%2Fbackground%2Fouter-space.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.5&fp-y=0.5&h=675&q=80&w=1200&s=0ffa1c685af26c84314db5b28ae2a1a3");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*-header-------------------------------------------*/
+.header {
+    width:100%;
+    margin:-10px;
+    height: 400px;
+    background-color: #2f0d4a;
+    opacity: 0.9;
+    transition:0.5s opacity;
+    margin-bottom:50px;
+}
+.header:hover {
+    transition:0.5s opacity;
+    opacity: 1;
+}
+.header__content{
+    margin-left: 10%;
+    width:80%;
+    overflow: hidden;
+    height:350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.title {
+    margin-top:30px;
+    text-align: center;
+    font-size: 35px;
+    color:white;
+}
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    opacity: 0.5;
+}
+.maintext {
+    text-align: center;
+    font-size:15px;
+    color:black;
+    opacity: 0.7;
+    margin-bottom:20px;
+}
+.linklist {
+    background-color: #2f0d4a;
+    width: 96%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    font-size:12px;
+    margin:0px, 2%;
+}
+.listcomponent {
+    align-self: center;
+    height: 30px;
+    border-radius:2px;
+    background-color: black;
+    opacity: 0.7;
+    width:10%;
+    text-align: center;
+    transition:1s all;
+    transform:scale(1);
+    box-shadow: 0px 0px 0px black;
+}
+.listcomponent:hover {
+    transition:0.2s box-shadow,0.2s transform;
+    box-shadow: 1px 1px 15px black;
+    transform:scale(1.05);
+}
+.listcomponent:first-child {
+    margin-left:30px;
+}
+.listcomponent a {
+    line-height: 25px;
+    align-self: center;
+    align-self: center;
+    text-decoration: none;
+    color:white;
+    width:11%;
+    overflow: hidden;
+}
+/*--mainpart--------------------------------------------*/
+.mainpart {
+    align-items: center;
+    height: 3800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainpart__component {
+    align-items: center;
+    overflow: hidden;
+    width:90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    margin-left: 20px;
+    margin-right:20px;
+    height: 220px;
+    border:5px solid #06434a;
+    border-radius: 5px;
+    transform:scale(1);
+    transition: 1s transform;
+}
+img:hover {
+    transition: 1s transform;
+    transform:scale(1.1);
+}
+.text {
+    transform: scale(0.9);
+    border-radius:10px;
+    border:2px solid black;
+    background-color: white;
+    height: 290px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.1;
+    transition: 1s all;
+}
+.text:hover {
+    transition: 1s opacity,0.5s transform;
+    opacity: 1;
+    transform: scale(1);
+}
+.texttitle {
+    margin-bottom:20px;
+    font-size: 30px;
+    color: #470985;
+    text-align: center;
+}
+.paragraph {
+    margin:5px;
+}
