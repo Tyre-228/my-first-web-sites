@@ -2,4 +2,4 @@ After learning HTML and CSS I started to learn Java Script. Honestly, it was muc
 After basic JS syntax I started to learn interaction with DOM. When I learned how to completely change HTML and CSS I was very very
 impressed. And after that I started to create new web site with JS. I know that this web site violate all rules and concept of JS and 
 programming and as an addition it was not adaptive. But it was my first JS project and just look at the animation in the beggining and
-lazy loading.
+lazy loading. Content in this site is written in Ukrainian language.
