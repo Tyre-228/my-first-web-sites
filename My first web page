@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Розробка Web-сайтів з використанням мови розмітки гіпертексту HTML</title>
+</head>
+<body style="background-color:floralwhite ">
+<h1>Розробка Web-сайтів з використанням мови розмітки гіпертексту HTML</h1>
+<hr color = red>
+<pre >HTML (англ. HyperText Markup Language — мова розмітки гіпертексту) — це мова тегів,засобами якої здійснюється розмічання вебсторінок для  мережі Інтернет. Браузери отримуютьHTML-документи
+з вебсервера або з локальної пам'яті й передають документи в мультимедійнівебсторінки. HTML описує структуру вебсторінки семантично і спочатку включені сигнали длязовнішнього вигляду 
+документа.
+
+Елементи HTML є будівельними блоками сторінок HTML. За допомогою конструкцій HTML, зображення та інші об'єкти, такі як інтерактивні форми, можуть бути вбудовані у візуалізовану сторінку.
+HTML надає засоби для створення структурованих документів, позначаючи структурну семантику тексту, наприклад заголовки, абзаци, списки, посилання, цитати та інші елементи.
+Елементи HTML окресленітегами, написаними з використанням кутових дужок. Теги, такі як і безпосередньо вводять вміст на сторінку. Іншітегиоточують і надають інформацію про текст 
+документа і можуть включати інші теги як піделементи. Браузери не показують теги HTML, але використовують їх для інтерпретації вмісту сторінки.
+
+HTML може вбудовувати програми, написані на мові сценаріїв, наприклад JavaScript, що впливає на поведінку та вміст вебсторінок. Включення CSS визначає вигляд і компонування вмісту.
+World Wide Web Consortium (W3C), який супроводжує стандарти HTML та CSS, заохочує використання CSS над явним презентаційним HTML з 1997 року.[1]
+</pre>
+	<h3>HTML впроваджує засоби для:</h3>
+<pre>
+створення структурованого документа шляхом позначення структурного складу тексту: заголовки, абзаци, списки, таблиці, цитати та інше;
+отримання інформації із Всесвітньої мережі через гіперпосилання;
+створення інтерактивних форм;
+включення зображень, звуку, відео, та інших об'єктів до тексту.
+<img src ="http://w3.org.ua/wp-content/uploads/2017/01/HTML5.jpg" width="300" 
+alt = html5>
+</pre>
+<hr>
+<h2>Історія розвитку HTML</h2>
+<hr>
+<img src ="data:image/jpeg;base64,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"
+<pre>
+1980 року фізик Тім Бернерс-Лі, який на той час був співробітником CERN, запропонував і прототипував систему INQUIRE, яка мала полегшити сумісне користування документами для дослідників 
+CERN.
+
+1989 року Бернерс-Лі запропонував впровадити на базі Internet гіпертекстову систему документів.[2]
+
+Вже наприкінці 1990 року він розробив HTML і написав браузер та серверне програмне забезпечення для запропонованої системи. У цьому ж році Тім Бернерс-Лі та Роберт Кайо, інженер
+інформаційних систем CERN,подали спільну заявку на фінансування проєкту, проте цей проєкт не був офіційно прийнятий CERN.
+
+Наприкінці 1991 року Тім Бернерс-Лі опублікував в Інтернеті перший загальнодоступний опис мови розмітки HTML, відомий як документ «HTML-теги» (HTML Tags).[3] В ньому були описані 20
+елементів первісної,відносно простої схеми розмітки HTML. За винятком тегу гіперпосилання, який був жорстко підпорядкований внутрішньому SGML-формату документації CERN. Тринадцять
+із тих елементів ще й досі існують у HTML4.[4]
+
+Бернерс-Лі розглядав HTML як похідну мову від SGML, і в середині 1993 року Спеціальна Комісія Інтернет-розробок (IETF) офіційно визначила її такою, опублікувавши першу специфікацію
+HTML:«Hypertext Markup Language (HTML)» Internet-проєкт, авторами якої були Тім Бернерс-Лі та Ден Конолі. Ця специфікація вже містила визначення типу документа, яке чітко зазначало
+граматику HTML.[5]
+
+Проєкт втратив силу через 6 місяців, проте був відомий за офіційне визнання в ньому створеного для браузера NCSA Mosaic тегу додавання зображень, не розділяючи філософію IETF щодо
+заснування стандартів на успішних прототипах.[6] Так само пізніше в 1993 році в конкуруючому Інтернет-проєкті Дейва Раджетта «HTML+ (Hypertext Markup Format)», було запропоновано
+стандартизувати вже запроваджені браузерами сенсаційні на той час можливості, такі як таблиці та перші інтерактивні форми.
+
+На початку 1994 року, після того, як проєкти «HTML» і «HTML+» втратили свою силу, IETF створив Робочу групу HTML (HTML Working Group). 1995 року Робоча група HTML завершила роботу
+над документом «HTML 2.0» (опублікований як RFC із номером 1866), першою специфікацією, що мала бути використана як базовий стандарт для подальших вдосконалень HTML.[6]
+Версія 2.0 окреслювала чіткі відмінностіміж новим виданням специфікації та попередніми проєктами.
+
+Подальші розробки під заступництвом IETF зіштовхнулися з конкуруючими інтересами. З 1996 року специфікації HTML затверджувались Консорціумом W3C, враховуючи доповнення до розмітки,
+що впроваджувалися компаніями-розробниками браузерів. Тим не менш, у 2000 році HTML стала міжнародним стандартом (ISO/IEC 15445:2000).
+
+Остання специфікація HTML, опублікована W3C наприкінці 1999 року, має назву «HTML 4.01 Recommendation». Усі спірні питання та помилки цієї специфікації були офіційно визнані
+у списку друкарських помилок, опублікованому в 2001 році.</pre>
+<hr>
+<h2>Версії</h2>
+<hr>
+
+<h3>Тім Бернерс-Лі представив HTML в дослідницькому центрі CERN в Женеві 1989 року.[7]</h3>
+
+<b>
+<h5>HTML (без номера версії, 3 листопада 1992): найперша версія, орієнтована лише на текст.[8]</h5>
+<h5>HTML (без номера версії, 30 квітня 1993): до тексту додано атрибути, які визначають курсивне або жирне написання літер, та зображення.</h5>
+<h5>HTML+ (листопад 1993): заплановані доповнення, які потрапили до наступних версій, але ніколи не були відокремлені як HTML+.[9]</h5>
+<h5>HTML 2.0 (листопад 1995): визначена стандартом RFC 1866 версія з підтримкою форм. Статус цього стандарту вже «історичний», також визнані застарілими попередні версії.</h5>
+<h5>HTML 3.0: версія, яка не зазнала поширення, оскільки разом із випуском браузера Netscape Navigator версії 3, цей стандарт вже був застарілим.</h5>
+<h5>HTML 3.2 (14 січня 1997): були додані численні можливості, такі як таблиці, обтікання текстом зображень, інтеграція аплетів.</h5>
+<h5>HTML 4.0 (18 грудня 1997): були додані таблиці стилів, скрипти та фрейми. Також відбулось розділення на Strict (суворе дотримання стандартів), Frameset (з підтримкою фреймів), Transitional (перехідний). 24 квітня 1998 було випущено виправлену версію цього стандарту.</h5>
+<h5>HTML 4.01 (24 грудня 1999): заміна версії HTML 4.0, містить численні дрібні виправлення.</h5>
+<h5>HTML 5 (Working Draft, 5 квітня 2008):[10] HTML 5 має новий словник, побудований на основі HTML 4.01 та XHTML 1.0. Також перероблена і розширена пов'язана з HTML специфікація DOM.</h5>
+<h5>XHTML 1.0 (26 січня 2000): висловлення стандарту HTML 4.01 засобами XML. 1 серпня 2002 було випущено оновлену редакцію стандарту.</h5>
+<h5>XHTML 1.1 (31 травня 2001): після того, як XHTML буде розділено на модулі, стандарт XHTML 1.1 визначатиме сувору версію, в якій не буде запроваджених HTML 4 можливостей Frameset та Transitional.</h5>
+<h5>XHTML 2.0 (розробка припинена в 2010 році): ця версія вже не базується на HTML 4.01 і додає деякі нові теги. Буде завершено розділення між представленням та вмістом.</h5></b>
+<hr>
+<h2>Редактори коду HTML</h2>	
+<hr>
+<pre>Редактор HTML або HTML-редактор — комп'ютерна програма, яка дозволяє створювати і змінювати HTML-сторінки. Незважаючи на те, що HTML-код може бути написаний в простому текстовому
+редакторі(наприклад, Gedit), спеціальні редактори для написання коду HTML пропонують більше зручностей і функціональності. За своєю функціональністю вони діляться 
+(часто вельми умовно) на дві категорії:Редактор показує тільки сирцевий кодРедактор показує готову сторінку в режимі WYSIWYG (що бачиш, те й маєш)Багато WYSIWYG-редакторівдозволяють 
+одночасно працювати і з кодом сторінки.
+
+Усі HTML-редактори можна розділити на дві категорії: текстові та графічні. Перші передбачають набір коду вручну, хоча й зі значною автоматизацією цього процесу. На панелях інструментів
+такихредакторів розташовані численні кнопки, за допомогою яких потрібний тег вставляється в HTML-код. Щоб увести в код атрибут, необхідно розмістити курсор усередині тегу 
+(після його імені), потім натиснути клавішу пробілу і, коли HTML-редактор надасть набір можливих атрибутів у вигляді списку, вибрати потрібний. Після цього програма відобразить його
+можливі значення.Необхідні атрибути можна задавати в окремих діалогових вікнах. У цьому випадку також вибираються потрібні значення, а редактор розміщує на сторінці відповідний код.</pre>
+<h3>Редактори HTML(безкоштовні)</h3>
+<ol>
+<li>Amaya</li>	
+<li>FCKeditor</li>
+<li>HTMLArea</li>
+<li>KompoZer</li>
+<li>Nvu</li>
+<li>Evrsoft First Page</li>
+<li>AceHTML</li>
+<li>Quanta Plus</li>
+<li>TopStyle 4</li>
+<li>TinyMCE</li>
+<li>BlueGriffon</li>
+<li>Online HTMLeditor</li>
+<li>Google Web Designer</li>
+</ol>
+<hr color = green>
+<h2>Інформацію взято з:</h2>
+<ol>
+<li><a href ="https://uk.wikipedia.org/wiki/HTML">HTML — Вікіпедія</a></li>
+<li><a href ="https://uk.wikipedia.org/wiki/Редактор_HTML">Редактор HTML — Вікіпедія</a></li>
+<li><a href ="https://uk.wikipedia.org/wiki/Тім_Бернерс-Лі">Тім Бернерс-Лі — Вікіпедія</a></li>
+<li><a href ="https://www.youtube.com/results?search_query=html+%D1%83%D1%80%D0%BE%D0%BA%D0%B8+loftblog">Уроки по HTML в YouTube</a></li>
+	</ol>
+<hr color = green>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
