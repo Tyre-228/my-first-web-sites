@@ -1,0 +1,4 @@
+After learning HTML I decided to learn game development. Yes, I as normal 14 beginner in programmer was dreaming about creating AAA
+incredible games. Why I learned HTML? Just for introduction to IT. But after 2 years of learning Godot engine I gave up it and I started to
+learn web development.I think that for I riched more 2 months of web than for 2 years in creating games. I learned CSS and it was very 
+impressive, especially when I was learning hover and active pseudoclasses. In this project I was practicing flex.
